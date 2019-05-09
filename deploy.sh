@@ -1,6 +1,6 @@
 docker build  -t yihengchen/multi-client:latest -t yihengchen/multi-client:$SHA -f ./client/Dockerfile ./client
-docker build  -t yihengchen/multi-server:latest -t yihengchen/multi-server:$SHA-f ./server/Dockerfile ./server
-docker build  -t yihengchen/multi-worker:latest -t yihengchen/multi-worker:$SHA-f ./worker/Dockerfile ./worker
+docker build  -t yihengchen/multi-server:latest -t yihengchen/multi-server:$SHA -f ./server/Dockerfile ./server
+docker build  -t yihengchen/multi-worker:latest -t yihengchen/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push yihengchen/multi-client:latest
 docker push yihengchen/multi-server:latest
