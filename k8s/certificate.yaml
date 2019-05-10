@@ -3,7 +3,7 @@ kind: Certificate
 metadata:
   name: yihengchen-me-tls
 spec:
-  secrectName: yihengchen-me
+  secretName: yihengchen-me
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
